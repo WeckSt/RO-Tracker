@@ -1,0 +1,73 @@
+{
+    "bosses": [
+        {
+            "cooldown": 150,
+            "dex": 30,
+            "int": 20,
+            "level": 100,
+            "maps": [
+                "sdasd",
+                "sdasd"],
+            "name": "Phreeonisssssssssssssssssssssssss",
+            "str": 50
+        },
+        {
+            "dex": 4,
+            "int": 3,
+            "level": 1,
+            "name": "Pharaoh",
+            "str": 2
+        },
+        {
+            "dex": 11,
+            "int": 22,
+            "level": 33,
+            "name": "test",
+            "str": 44
+        }
+    ],
+    "instances": [
+        {
+            "description": 100,
+            "link": 20,
+            "name": "sdasd",
+            "reward": "200 coins"
+        },
+        {
+            "dex": 4,
+            "int": 3,
+            "level": 1,
+            "name": "Pharaoh",
+            "str": 2
+        },
+        {
+            "dex": 11,
+            "int": 22,
+            "level": 33,
+            "name": "test",
+            "str": 44
+        }
+    ],
+    "quests": [
+        {
+            "description": 100,
+            "link": 20,
+            "name": "sdafggg",
+            "reward": "200 coins"
+        },
+        {
+            "dex": 4,
+            "int": 3,
+            "level": 1,
+            "name": "Pharaoh",
+            "str": 2
+        },
+        {
+            "dex": 11,
+            "int": 22,
+            "level": 33,
+            "name": "test",
+            "str": 44
+        }
+    ]
+}
