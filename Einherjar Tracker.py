@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter.messagebox import showinfo
 from trackerFunctions import *
-from threading import Timer
+
 
 
 # initialize json data
@@ -48,7 +48,7 @@ ttk.Label(tab1, text="int:    ").grid(column=0,row=8,pady=10)
 ttk.Label(tab1, text="luk:    ").grid(column=0,row=9,pady=10)
 ttk.Label(tab1, text=" ").grid(column=3,row=1)
 ttk.Label(tab1, text="Explanation").grid(column=4,row=1)
-timer_button = ttk.Button(tab1,text="Timer starten",command= popupbosstimer, )
+timer_button = ttk.Button(tab1,text="Timer starten",command=lambda: popupbosstimer(boss="asdf",map="asdf",respawn=1,timeformat="x"))
 timer_button.grid(column=8,row=9)
 
 
