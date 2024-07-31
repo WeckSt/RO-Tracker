@@ -3,6 +3,7 @@
 
 ## Patchnotes
     2024_07_26 - First creation of the program, getting back into programming
+    2024_07_30 - Added additional information of the monsters to display when selected
                
 
 ## Future updates

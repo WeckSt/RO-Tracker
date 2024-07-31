@@ -1,6 +1,7 @@
 import json
 import os
 
+#import json file and return the data in readable format
 def getJsonData(configpath):
     if os.path.isfile(configpath):
            with open(configpath) as rawJson:
@@ -9,6 +10,7 @@ def getJsonData(configpath):
     else:
        return "error - no data found"
 
+#get bossdata out of a json structure
 def getBossData(jsondata):
     for key, value in jsondata.items():
         if key == "bosses" :
@@ -17,7 +19,3 @@ def getBossData(jsondata):
 
 def writeInfo(eventObject,returnvalue):
     print(returnvalue)
-
-test2 = getJsonData('./trackerConfig.json')
-
-getBossData(test2)

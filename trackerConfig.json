@@ -1,29 +1,74 @@
 {
     "bosses": [
         {
-            "cooldown": 150,
-            "dex": 30,
-            "int": 20,
-            "level": 100,
+            "hp": 188000,
+            "str": 1,
+            "agi": 85,
+            "dex": 130,
+            "int": 35,
+            "vit": 78,
+            "luk": 60,
+            "level": 69,
+            "race": "brute",
+            "property": "neutral 3",
+            "size": "large",
+            "hit100": 174,
+            "flee95": 274,
+            "atk": "880-1530",
             "maps": [
-                "sdasd",
-                "sdasd"],
-            "name": "Phreeonisssssssssssssssssssssssss",
-            "str": 50
+                {
+                    "map": "moc_fild17",
+                    "timer": 120
+                },
+                {
+                    "map": "moc_fild02",
+                    "timer": 110
+                }
+            ],
+            "name": "Phreeoni"
         },
         {
-            "dex": 4,
-            "int": 3,
-            "level": 1,
-            "name": "Pharaoh",
-            "str": 2
+            "hp": 188000,
+            "cooldown": 120,
+            "str": 1,
+            "agi": 85,
+            "dex": 130,
+            "int": 35,
+            "vit": 78,
+            "luk": 60,
+            "level": 69,
+            "race": "brute",
+            "property": "neutral 3",
+            "size": "large",
+            "hit100": 174,
+            "flee95": 274,
+            "atk": "880-1530",
+            "maps": [
+                "moc_fild17",
+                "moc_fild03"
+            ],
+            "name": "Pharaoh"
         },
         {
-            "dex": 11,
-            "int": 22,
-            "level": 33,
-            "name": "test",
-            "str": 44
+            "hp": 188000,
+            "cooldown": 120,
+            "str": 1,
+            "agi": 85,
+            "dex": 130,
+            "int": 35,
+            "vit": 78,
+            "luk": 60,
+            "level": 69,
+            "race": "brute",
+            "property": "neutral 3",
+            "size": "large",
+            "hit100": 174,
+            "flee95": 274,
+            "atk": "880-1530",
+            "maps": [
+                "moc_fild17"
+            ],
+            "name": "Drake"
         }
     ],
     "instances": [
